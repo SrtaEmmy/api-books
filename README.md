@@ -42,6 +42,15 @@ RESPONSE: Status Code 200: Indicates that the book has been updated successfully
 Status Code 400 Bad Request: Returned when required fields (title or author) are missing.
 <hr>
 
+<h2>
+  Delete a book (PUT /api/books)
+</h2>
+Delete a book by providing the ID of the book to be deleted.
+RESPONSE: Status Code 200 OK: Indicates that the book has been deleted successfully.
+
+Status Code 500 Internal Server Error: Returned when there is an issue with the server while trying to delete the book.
+<hr>
+
 <h1>Requeriments</h1>
  - Node.js and npm should be installed on the system.
  
